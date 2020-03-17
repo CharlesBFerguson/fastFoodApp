@@ -1,6 +1,6 @@
 function placeOrder() {
   var customerOrder = document.getElementById("orderInput").value;
-  document.getElementById("orderRecap").innerHTML = customerOrder;
+  document.getElementById("orderRecap").innerHTML = `You have ordered ${customerOrder}`;
   }
 
 // var p1 = 5;
