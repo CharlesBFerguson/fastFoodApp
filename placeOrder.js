@@ -5,6 +5,10 @@ function placeOrder() {
   document.getElementById("orderInput").value = "";
 }
 
+function clearRecap() {
+  document.getElementById("orderRecap").innerHTML = "";
+}
+
 
 // var p1 = 5;
 // var p2 = 7;
