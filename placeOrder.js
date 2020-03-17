@@ -5,7 +5,7 @@ function placeOrder() {
   document.getElementById("orderInput").value = "";
 }
 
-function clearRecap() {
+function orderRecapClear() {
   document.getElementById("orderRecap").innerHTML = "";
 }
 
