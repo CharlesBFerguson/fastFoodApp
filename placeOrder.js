@@ -1,6 +1,7 @@
 function placeOrder() {
   let customerOrder = document.getElementById("orderInput").value;
   console.log(`You have ordered ${customerOrder}`);
+  console.log(customerOrder.split(" "));
   document.getElementById("orderRecap").innerHTML = `You have ordered ${customerOrder}`;
   document.getElementById("orderInput").value = "";
 }
@@ -21,6 +22,10 @@ let menu = {
   water:100
 }
 
+// function orderOptimize() {
+//   let res = customerOrder.split(" ");
+//   console.log(res);
+// }
 
 // let p1 = 5;
 // let p2 = 7;
