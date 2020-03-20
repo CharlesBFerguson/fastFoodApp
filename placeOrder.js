@@ -1,10 +1,11 @@
 function placeOrder() {
   let customerOrder = document.getElementById("orderInput").value;
-  console.log(`You have ordered ${customerOrder}`);
   // console.log(customerOrder.trim());
   console.log(customerOrder.split(","));
   console.log(customerOrder.split(" ").join(""));
   // console.log(customerOrder.trim());
+  
+  // console.log(`You have ordered ${customerOrder}`);
   document.getElementById("orderRecap").innerHTML = `You have ordered ${customerOrder}`;
   document.getElementById("orderInput").value = "";
 }
