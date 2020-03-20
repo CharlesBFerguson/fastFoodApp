@@ -3,7 +3,6 @@ function placeOrder() {
   console.log(`You have ordered ${customerOrder}`);
   // console.log(customerOrder.trim());
   console.log(customerOrder.split(","));
-  // console.log(customerOrder.split(":"));
   // console.log(customerOrder.trim());
   document.getElementById("orderRecap").innerHTML = `You have ordered ${customerOrder}`;
   document.getElementById("orderInput").value = "";
