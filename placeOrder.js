@@ -17,7 +17,7 @@ function orderRecapClear() {
 let menu = {
   burger:100,
   cheeseburger:100,
-  hotdog: 100,
+  hotdog:100,
   nuggets:1000,
   fries:100,
   tots:100,
