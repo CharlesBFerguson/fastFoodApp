@@ -3,11 +3,11 @@ function placeOrder() {
   customerOrder = customerOrder.toLowerCase(); // String
   customerOrder = customerOrder.split(','); //now Array - can chain .split above instead
   customerOrder = customerOrder.join(''); // now String
-  customerOrder = customerOrder.split(' '); //now Array
+  customerOrder = customerOrder.split(' '); //now Array - result: "fries:#", "burger:#" (without spaces)
   console.log(typeof customerOrder, customerOrder);
 
-  customerOrder = customerOrder.join(':'); // now String
-  customerOrder = customerOrder.split(':'); //now Array
+  customerOrder = customerOrder.join(':'); // now String - result: "fries:#:burger:#"
+  customerOrder = customerOrder.split(':'); //now Array - result: "fries", "#", "burger", "#" (without spaces) - can chain .split above instead
   console.log(typeof customerOrder, customerOrder);
   
   // console.log(`You have ordered ${customerOrder}`);
@@ -51,6 +51,7 @@ let menu = [
 ]
 // console.log(typeof menu, menu);
 
+// --------------
 
 // function placeOrder() {
 //   let customerOrder = document.getElementById("orderInput").value;
