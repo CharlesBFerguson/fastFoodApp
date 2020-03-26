@@ -15,9 +15,9 @@ function placeOrder() {
   document.getElementById("orderInput").value = "";
 }
 
-function orderRecapClear() {
-  document.getElementById("orderRecap").innerHTML = "";
-}
+// function orderRecapClear() {
+//   document.getElementById("orderRecap").innerHTML = "";
+// }
 
 // function pushData() {
 //   // get value from the input text
